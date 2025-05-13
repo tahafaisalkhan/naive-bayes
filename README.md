@@ -32,24 +32,14 @@ This project implements the Naive Bayes classification algorithm from scratch in
 ---
 
 ## 🧪 Evaluation Results
-
-### ✅ Bernoulli Naive Bayes (Golf Data)
-
-| Metric     | From Scratch | scikit-learn |
-|------------|---------------|--------------|
-| Accuracy   | e.g., 0.86     | e.g., 0.86    |
-| Precision  | e.g., 0.80     | e.g., 0.80    |
-| Recall     | e.g., 1.00     | e.g., 1.00    |
-| F1 Score   | e.g., 0.89     | e.g., 0.89    |
-
-### 💬 Multinomial Naive Bayes (Tweet Data)
-
-| Metric     | From Scratch | scikit-learn |
-|------------|--------------|--------------|
-| Accuracy   | e.g., 0.65    | e.g., 0.72    |
-| Precision  | e.g., 0.64    | e.g., 0.71    |
-| Recall     | e.g., 0.63    | e.g., 0.70    |
-| F1 Score   | e.g., 0.63    | e.g., 0.70    |
+Bernoulli Naive Bayes (Golf Data) Metrics on Test Set:
+Accuracy: 0.82
+Precision: 0.52
+Recall: 0.03
+F1 Score: 0.06
+Confusion Matrix:
+[[1872   13]
+ [ 401   14]]
 
 > **Note:** Actual results may vary depending on software versions and the randomness in train/test splits.
 
